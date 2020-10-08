@@ -1,5 +1,8 @@
 .App {
+  align-content: center;
   text-align: center;
+ 
+  
 }
 
 .App-logo {
@@ -35,4 +38,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+#mainPic{
+  flex-wrap:nowrap;
+  width: 30%;
+  height: 30%;
+  border: solid .75rem;
+  border-color: bisque;
+  border-radius: 10%;
+
+}
+.mainText{
+ align-content: center;
+  width: 30%;
+  border: solid .75rem;
+  border-color: bisque;
+  border-radius: 10%;
+  margin-left: 35%;
+  padding: 1rem;
+
+}
+
+.mainButton{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  border: solid .50rem;
+  border-color: bisque;
+  border-radius: 10%;
+  padding: 1rem;
+  
+
+}
+nav{
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  
 }
