@@ -23,8 +23,7 @@ function App() {
     <div className="App">
       <h1>Today's Photo</h1>
       <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun <span role="img" aria-label='go!'>🚀</span>!
+       Our world is bigger than we're used to. There is endless space. Explore!  <span role="img" aria-label='go!'>🚀</span>!
         <img src = {imageOfTheDay.url}></img>
       </p>
     </div>

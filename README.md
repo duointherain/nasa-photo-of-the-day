@@ -42,18 +42,18 @@ This project was put together using create-react-app (CRA). You will not need to
 **Planning**
 
 - [ ] If you want, this is the time to make a simple design spec (look up ["simple wireframes"](https://www.google.com/search?q=simple+wireframes) to find resources & examples). **A pen & paper sketch (or outline) is often the fastest way to start your planning.**
-- [ ] Once you have a design plan in mind, break down the designs into individual components.
-- [ ] Plan which components will hold state, what data each needs from props (if any), and where you will be making your data fetch.
-- [ ] Now it's time to jump into the code!
+- [x ] Once you have a design plan in mind, break down the designs into individual components.
+- [ x] Plan which components will hold state, what data each needs from props (if any), and where you will be making your data fetch.
+- [x ] Now it's time to jump into the code!
 
 **File structure**
 
-- [ ] Take a look at your planned components. Create the folders and files you need for each component.
-- [ ] Leave most of them blank for now - you need to get your data from the API before you can really get these built.
+- [ x] Take a look at your planned components. Create the folders and files you need for each component.
+- [ x] Leave most of them blank for now - you need to get your data from the API before you can really get these built.
 
 **Fetching the Data**
 NKXoAGvvT65UPclVawwiGRMSJFtrzTkNlon2lSce
-- [ ] In `App.js` (or where ever you wanted to fetch the data) add state for the data you'll be getting from NASA.
+- [x ] In `App.js` (or where ever you wanted to fetch the data) add state for the data you'll be getting from NASA.
 - [ ] Add an effect hook to handle the API call side effect.
 - [ ] Go to the [NASA APOD API docs](https://api.nasa.gov/#apod) and read through the docs to see how to make the API call.
 - [x ] You don't _need_ an API key. However you may need one if you exceed the API request limits.
@@ -71,14 +71,14 @@ _Note: if the photo url is NOT a photo, you will need to learn how to display a 
 
 **Adding the Data to State**
 
-- [ ] Once you have made the call correctly, and logged the data, add the data to the state property you built.
+- [x ] Once you have made the call correctly, and logged the data, add the data to the state property you built.
 
 **Display the Data**
 Now is the time to build out your other components. Compose your UI, and then pass the data to your children components via props so you can render it on the DOM.
 
 #### _MVP Requirements:_
 
-- [ ] Use the effect hook to fetch the APOD data when the component mounts.
+- [ x] Use the effect hook to fetch the APOD data when the component mounts.
 - [ ] Display the APOD data in different components that are composed together to build your UI.
 
 #### Pro Tips:
