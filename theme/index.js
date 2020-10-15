@@ -6,6 +6,7 @@ export default {
     dangerColor: 'orange',
     black: 'black',
     white: 'white',
+    happyColor: 'cadetBlue'
     breakpoints: {
       mobile: '(max-width: 550px)',
       tablet: '(max-width: 800px)',
