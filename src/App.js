@@ -29,9 +29,9 @@ function App() {
       <p>
        Our world is bigger than we're used to. There is endless space. Explore!  <span role="img" aria-label='go!'>🚀</span>!</p>
       
-       <iframe id="mainPic" src = {imageOfTheDay.url}></iframe> 
+       {/* <iframe id="mainPic" src = {imageOfTheDay.url}></iframe>  */}
        
-       {/* <img id="mainPic" src = {imageOfTheDay.url}></img> */}
+       <img id="mainPic" src = {imageOfTheDay.url}></img>
        
         
      <p class="mainText"> 
